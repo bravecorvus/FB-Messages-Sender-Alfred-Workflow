@@ -1,5 +1,4 @@
-Facebook Messenger Send for Alfred 3
-============
+#Facebook Messenger Send for Alfred 3
 
 by ![Andrew Lee]("http://andrewshinsuke.me")
 
@@ -7,13 +6,16 @@ by ![Andrew Lee]("http://andrewshinsuke.me")
 
 ![henrik: Send on Messenger]("https://gist.github.com/henrik/cffa4b465fa50b612bb1")
 
+
+
 A primative workflow to send a facebook message over a node.js script
 
 Have you missed using Facebook Messeges from your Messeges app? Although lacking complete features, this workflow will allow you to send a messege anyone on Facebook.
 
 
+
 ##Installation
-----------------
+
 *Alfred 3 and Powerpack is required*
 
 *node.js and npm are required (easiest to do it on homebrew)*
@@ -23,16 +25,16 @@ Have you missed using Facebook Messeges from your Messeges app? Although lacking
 2) - Double click the downloaded "FBMessegesSender" file to install, or drag and drop in Alfred Preferences > Workflows
 
 3) Create the file ~/.facebook-auth containing your login email and password in the format:
-    me@example.com:mypassword.
+    bash$ username@example.com:mypassword.
 
 4) Open the workflow directory from Alfred Preferences > Open in Finder
-    A) Copy the path by CMD-N (which will open up a new Finder window), CMD-Shift-G (which allows you to drag and drop a diretory path to get the full path).
+A) Copy the path by CMD-N (which will open up a new Finder window), CMD-Shift-G (which allows you to drag and drop a diretory path to get the full path).
     *note, sometimes there is already text in the CMD-Shift-G text field, so you want to remove all the text before pasting in the workflow's path or else when you paste the directory, it will paste in the middle of the old text, and create an invalid path*
-    B) Highlight the new path, and copy into your clipboard. (CMD-A), (CMD-C)
-    C) Open a new Terminal or iTerm window and change directories into the path you just copied
-        cd PATH_TO_WORKFLOW
-    D) Install Dependencies
-        npm install
+B) Highlight the new path, and copy into your clipboard. (CMD-A), (CMD-C)
+C) Open a new Terminal or iTerm window and change directories into the path you just copied
+    cd PATH_TO_WORKFLOW
+D) Install Dependencies
+    npm install
 
 
 
