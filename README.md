@@ -10,7 +10,7 @@ by Gilgamesh Skytrooper
 
 A primative workflow to send a facebook message over a node.js script
 
-Have you missed using Facebook Messeges from your Messeges app? Although lacking complete features, this workflow will allow you to send a messege anyone on Facebook.
+Have you missed using Facebook Messeges from your Messeges app? Although lacking complete features, this workflow will allow you to send a messege anyone on Facebook (as long as you get the name right).
 
 
 
@@ -48,8 +48,8 @@ D) Install Dependencies
 
 ## Commands
 
-- fb: `<string>`
--     `<string>`
+- 'fb:'' `<string>`
+- ''     `<string>`
 
 Keyword "fb:" + "FIRSTNAME LASTNAME" + Return
 
@@ -73,4 +73,8 @@ Furthermore, you need to store your Facebook credentials in a plain text file to
 
 I think this workflow is on a good start, but it definitely could use some features such as querying from your contacts to get the exact name to send the messege, or to incorporate some type of notification feature from your friends messeging you back.
 
+As I am a coding n00b, I would love some help in making this a full fledged FB Messeges Integration Workflow which doesn't rely on the Jabber IM prolocols.
+
 I welcome further development, and will do my best to update this workflow as necessary.
+
+#Thanks for your time
