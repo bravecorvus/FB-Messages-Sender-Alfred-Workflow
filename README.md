@@ -15,6 +15,7 @@ Have you missed using Facebook Messeges from your Messeges app? Although lacking
 ##Installation
 ----------------
 *Alfred 3 and Powerpack is required*
+
 *node.js and npm are required (easiest to do it on homebrew)*
 
 1) - Download "[FB Messeges Sender.alfredworkflow](https://github.com/gilgameshskytrooper/FB-Messeges-Sender-Alfred-Workflow/FBMessegesSender)" extension.
@@ -50,6 +51,7 @@ Keyword "fb:" + "FIRSTNAME LASTNAME" + Return
 ![Content](assets/content.png)
 
 Wallah, it sent
+
 ![Proof](assets/sent.png)
 
 
