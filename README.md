@@ -25,7 +25,7 @@ Have you missed using Facebook Messeges from your Messeges app? Although lacking
 2) - Double click the downloaded "FBMessegesSender" file to install, or drag and drop in Alfred Preferences > Workflows
 
 3) Create the file ~/.facebook-auth containing your login email and password in the format:
-    ```javascript
+    ```bash
     bash$ username@example.com:mypassword.
     ```
 
@@ -34,11 +34,11 @@ A) Copy the path by CMD-N (which will open up a new Finder window), CMD-Shift-G 
     *note, sometimes there is already text in the CMD-Shift-G text field, so you want to remove all the text before pasting in the workflow's path or else when you paste the directory, it will paste in the middle of the old text, and create an invalid path*
 B) Highlight the new path, and copy into your clipboard. (CMD-A), (CMD-C)
 C) Open a new Terminal or iTerm window and change directories into the path you just copied
-    ```javascript
+    ```bash
     cd PATH_TO_WORKFLOW
     ```
 D) Install Dependencies
-    ```javascript
+    ```bash
       npm install
     ```
 
