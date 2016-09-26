@@ -26,7 +26,7 @@ Have you missed using Facebook Messeges from your Messeges app? Although lacking
 
 3) Create the file ~/.facebook-auth containing your login email and password in the format:
     ```bash
-    bash$ username@example.com:mypassword.
+    username@example.com:mypassword.
     ```
 
 4) Open the workflow directory from Alfred Preferences > Open in Finder
