@@ -71,7 +71,7 @@ Furthermore, you need to store your Facebook credentials in a plain text file to
 
 ## Further Development
 
-I think this workflow is on a good start, but it definitely could use some features such as querying from your contacts to get the exact name to send the messege, or to incorporate some type of notification feature from your friends messeging you back.
+I think this workflow is on a good start, but it definitely could use some features such as querying from your contacts to get the exact name to send the messege, or to incorporate some type of notification feature from your friends messeging you back. At the same time, I made a super ghetto fix in the workflow builder to replace the contact field with a blank space for the messege content field, so if someone could help me sort that out, it would be much appreciated.
 
 As I am a coding n00b, I would love some help in making this a full fledged FB Messeges Integration Workflow which doesn't rely on the Jabber IM prolocols.
 
